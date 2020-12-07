@@ -3,57 +3,35 @@ package Lesson04.Task1;
 public class Main {
 
     public static void main(String[] args) {
-	// Написать программу для поиска минимального из двух чисел.
-        System.out.println("Lesson04.Task1");
-        int i1=7;
-        int i2=6;
-        if (i1<i2) {System.out.println("Min number is i1 = " + i1);}
-        else {System.out.println("Min number is i2 = " + i2);}
-    //_________________________________________________________________________________________________
-    // Написать программу, которая описывает введенное число.
-    // Отрицательное оно число или положительное (или нулевое), чётное или нечётное.
-        System.out.println("Lesson04.Task2");
-        int j1=-3;
-        if ((j1<0) && (j1%2 == 0)) System.out.println("Число "+j1+" отрицательное и четное");
-        else
-            if ((j1>0) && (j1%2==0)) System.out.println("Число "+j1+" положительное и четное");
-            else
-                if ((j1<0) && (j1%2!=0)) System.out.println("Число "+j1+" отрицательное и нечетное");
-                else
-                    if ((j1>0) && (j1%2!=0)) System.out.println("Число "+j1+" положительное и нечетное");
-                    else
-                        System.out.println("Число равно 0");
-    //_________________________________________________________________________________________________
-    // Написать программу для вывода на экран таблицы умножения.
-        System.out.println("Lesson04.Task3");
-        for (int c1 = 1; c1 <= 10; c1++) {
-            for (int c2=1; c2<=10; c2++)
-            System.out.println(c1 + "x"+ c2 +"=" + (c1 * c2));
-        }
-    //_________________________________________________________________________________________________
-    // Написать программу, которая выводит арифметическую или геометрическую прогрессию для N чисел.
-        System.out.println("Lesson04.Task4");
-        int a=5; // первая цифра арифметической прогрессии
-        int d=4; // постоянная
-        int n1=5; // количество членов прогрессии
-        int e1=1;
-        System.out.println("Арифметическая прогрессия длиной "+n1+", начиная с цифры "+a);
-        while (e1 <= n1){
-            System.out.println(a+(e1-1)*d);
-            e1++;
+        toLeft();
+    }
+
+    public static void toLeft() {
+        // заполняем массив array числами
+        System.out.println("Начальный массив");
+        int[][] array = new int[10][10];
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array.length; j++) {
+                array[i][j] = ((int) (Math.random() * 100));
+                System.out.print(array[i][j]+" ");
+            }
+            System.out.println();
         }
 
-        int b=1; // первая цифра геометрической прогрессии
-        int q=4; // постоянная
-        int n2=5; // количество членов прогрессии
-        int e2=2;
-        System.out.println("Геометрическая прогрессия длиной "+n2+", начиная с цифры "+b);
-        System.out.println(b); // первая цифра геометрической прогрессии
-        System.out.println(b); // вторая цифра геометрической прогрессии
-        do {System.out.println(b*q);
-        b=b*q;
-        e2++;
+        // сдвигаем элементы массива влево, последний элемент каждой строки заполняем 0
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array.length-1; j++) {
+                array[i][j] = array[i][j+1];
+            }
+            array[i][array.length-1] = 0;
         }
-        while (e2<n2);
+        // печатаем новый массив
+        System.out.println("Преобразованный массив");
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array.length; j++) {
+                System.out.print(array[i][j]+" ");
+            }
+            System.out.println();
+        }
     }
 }
