@@ -1,8 +1,9 @@
-package com.company;
+package Lesson04.MyFirstProject;
 
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+	// write
+        int i=1;
     }
 }

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6585d8bd-c76e-4d22-bd45-c48e5d19620f" name="Default Changelist" comment="my second changes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/com/company/Main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1lHRgUA1OszKpLelX4eS5Iellvn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson04.MyFirstProject.Main" />
+      <module name="MyFirstProject" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6585d8bd-c76e-4d22-bd45-c48e5d19620f" name="Default Changelist" comment="" />
+      <created>1607252145017</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607252145017</updated>
+      <workItem from="1607252148047" duration="2348000" />
+    </task>
+    <task id="LOCAL-00001" summary="my first changes">
+      <created>1607253677641</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607253677641</updated>
+    </task>
+    <task id="LOCAL-00002" summary="my second changes">
+      <created>1607254065070</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607254065070</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="my first changes" />
+    <MESSAGE value="my second changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="my second changes" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="495" y="132" width="572" height="301" key="Github.ShareDialog" timestamp="1607252855182">
+      <screen x="0" y="25" width="1440" height="795" />
+    </state>
+    <state x="495" y="132" width="572" height="301" key="Github.ShareDialog/0.25.1440.795@0.25.1440.795" timestamp="1607252855182" />
+    <state x="235" y="25" key="SettingsEditor" timestamp="1607252354563">
+      <screen x="0" y="25" width="1440" height="795" />
+    </state>
+    <state x="235" y="25" key="SettingsEditor/0.25.1440.795@0.25.1440.795" timestamp="1607252354563" />
+    <state x="606" y="287" key="VCS.EditChangelistDialog" timestamp="1607254427945">
+      <screen x="0" y="25" width="1440" height="795" />
+    </state>
+    <state x="606" y="287" key="VCS.EditChangelistDialog/0.25.1440.795@0.25.1440.795" timestamp="1607254427945" />
+    <state x="326" y="106" key="Vcs.Push.Dialog.v2" timestamp="1607254104376">
+      <screen x="0" y="25" width="1440" height="795" />
+    </state>
+    <state x="326" y="106" key="Vcs.Push.Dialog.v2/0.25.1440.795@0.25.1440.795" timestamp="1607254104376" />
+    <state x="326" y="106" key="Vcs.Push.Dialog.v2/0.25.1440.797@0.25.1440.797" timestamp="1607254004129" />
+    <state x="491" y="138" width="759" height="524" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1607254734566">
+      <screen x="0" y="25" width="1440" height="795" />
+    </state>
+    <state x="491" y="138" width="759" height="524" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.25.1440.795@0.25.1440.795" timestamp="1607254734566" />
+    <state x="491" y="138" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.25.1440.797@0.25.1440.797" timestamp="1607254045256" />
+  </component>
+</project>
