@@ -31,9 +31,7 @@ class printer {
         default void print() {
             System.out.println("printable");
             read();
-        }
-
-        ;
+        };
 
         private static void read() {
             System.out.println("read something");
