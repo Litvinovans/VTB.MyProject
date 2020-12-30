@@ -17,7 +17,8 @@ public class Main {
         if (i>0) {
             String[][] st = new String[i][4];
             for (int j = 0; j < i; j++) {
-                System.out.println("Выберите цифру типа документа: 1 - Договор, 2 - Акт");
+                System.out.printf("Выберите цифру типа документа № %s: 1 - Договор, 2 - Акт",j+1);
+                System.out.println();
                 int n = sc.nextInt();
                 switch (n) {
                     case (1): {
@@ -37,8 +38,7 @@ public class Main {
                         break;
                     }
                     default: {
-                        System.out.println("Введен некорректный тип документа!!!");
-                        System.out.println("Повторите ввод типа документа: 1 - Договор, 2 - Акт");
+                        System.out.println("Введен некорректный тип документа!!! Требуется повторный ввод");
                         j--;
                     }
                 }
@@ -48,10 +48,14 @@ public class Main {
                 System.out.printf("Введите номер документа, который хотите распечатать. Всего документов - %s. " +
                         "Для завершения введите 0. \n", i);
                 printelement = sc.nextInt();
-                if (printelement != 0) {
+                if (/*(printelement != 0)&*/(printelement>0)&(printelement<i+1)) {
                     System.out.printf(toString(st, printelement));
                     System.out.println();
                 }
+                else
+                    if (printelement!=0) {
+                        System.out.println("Введенный номер документа не существует!");
+                    }
             }
         }
         else {
