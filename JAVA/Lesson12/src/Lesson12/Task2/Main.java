@@ -21,11 +21,11 @@ public class Main {
                 System.out.println("\nNot directory: " + s);
                 continue;
             }
-            list(s);
+            list(s,0);
         }
     }
 
-    static void list(String szDir)
+    static void list(String szDir, int num)
     {
         int i;
         File f = new File(szDir);
@@ -34,11 +34,14 @@ public class Main {
         {
             File f1 = new File(szDir + File.separator + sDirList[i]);
 
-            if(f1.isFile())
+            if(f1.isFile()) {
+                for (int j = 0; j<num; j++)
+                    System.out.print("  ");
                 System.out.println(szDir + File.separator + sDirList[i]);
+            }
             else
             {
-                list(szDir + File.separator + sDirList[i]);
+                list(szDir + File.separator + sDirList[i], num+1);
             }
         }
     }
